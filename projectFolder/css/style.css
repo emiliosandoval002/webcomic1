@@ -1,0 +1,113 @@
+body{background-color: #3b8ba3;}
+
+h1{
+  color: white;
+  text-align: center;
+}
+h3{
+  color: white;
+  text-align: center;
+}
+
+#container{
+  display:grid;
+  height: 515vh;
+  width: 90vw;
+  background-color: white;
+  padding: 25px;
+  margin: 1.5vh auto;
+  
+  gride-template-columns: 1fr 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-row-gap: 30px;
+  grid-column-gap: 30px;
+}
+
+#cell1{
+  grid-column: 1/ span 2;
+  grid-row: 1 / span 1;
+  background-color: pink;
+  text-align: center;
+}
+
+#cell2{
+  grid-column: 3 / 5;
+  grid-row: 1 / span 1;
+  background-color: red;
+  text-align: center;
+}
+
+#cell3{
+  grid-column: 1 / span 2;
+  grid-row: 2 / span 1;
+  background-color: orange;
+  text-align: center;
+}
+
+#cell4{
+  grid-column: 3 / span 2;
+  grid-row: 2 / span 1;
+  background-color: brown;
+  text-align: center;
+}
+
+#cell5{
+  grid-column: 1 / span 2;
+  grid-row: 3 / span 1;
+  background-color: lightskyblue;
+  text-align: center;
+}
+
+#cell6{
+  grid-column: 3/ span 2;
+  grid-row: 3 / span 1;
+  background-color: mediumblue;
+  text-align: center;
+}
+
+#cell7{
+  grid-column: 1 / span 2;
+  grid-row: 4 / span 1;
+  background-color: OliveDrab;
+  text-align: center;
+}
+
+#cell8{
+   grid-column: 3 / span 2;
+  grid-row: 4 / span 1;
+  background-color: green;
+  text-align: center;
+}
+
+#cell9{
+  grid-column: 1 / span 2;
+  grid-row: 5 / span 1;
+  background-color: yellow;
+  text-align: center;
+}
+
+#cell10{
+   grid-column: 3 / span 2;
+  grid-row: 5 / span 1;
+  background-color: goldenrod;
+  text-align: center;
+}
+
+#cell11{
+  grid-column: 1 / span 2;
+  grid-row: 6 / span 1;
+  background-color: Chocolate;
+  text-align: center;
+}
+
+#cell12{
+   grid-column: 3 / span 2;
+  grid-row: 6 / span 1;
+  background-color: coral;
+  text-align: center;
+}
+
+img{
+  width:100%;
+  height: 100%;
+}
